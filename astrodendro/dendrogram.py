@@ -593,7 +593,7 @@ class Dendrogram(object):
         # Save a list of all structures accessible by ID
         self._structures_dict = keep_structures
 
-        self._index()  # XXX check if this is OK with non-packed idx values
+        # self._index()  # XXX check if this is OK with non-packed idx values
 
         return self
 
